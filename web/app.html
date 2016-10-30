@@ -1,0 +1,11 @@
+<h1>Cato-navigation</h1>
+<cato-navigation
+    [(place)]="currentPlace"
+    [places]="places">
+</cato-navigation>
+
+<p>Place is: {{currentPlace.label}}</p>
+
+<a (click)="goToAlpha()" href="javascript:void(0)">Alpha</a>
+<a (click)="goToBeta()" href="javascript:void(0)">Beta</a>
+<a (click)="goToGamma()" href="javascript:void(0)">Gamma</a>
